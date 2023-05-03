@@ -6,8 +6,6 @@ import type { AppProps } from "next/app";
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
-      <Modal actionLabel="Submit" isOpen title="tes modal" />
-
       <Layout>
         <Component {...pageProps} />
       </Layout>
